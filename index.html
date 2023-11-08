@@ -1,68 +1,94 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>MOCK Page</title>
-    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="icon" href="favicon.png" type="image/png" />
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 36px;
-        }
-        nav {
-            background-color: #444;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav li {
-            display: inline;
-            margin: 0 10px;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      nav {
+        background-color: #444;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline;
+        margin: 0 10px;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
     </style>
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <h1>🐱‍👤 MOCK Page 🐱‍👤</h1>
+      <h1>🐱‍👤 MOCK Page 🐱‍👤</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
     <main>
-        <h2>Welcome to the Test Page!</h2>
-        <p>This is a simple mock-up web page for testing purposes.</p>
-        <p>Please talk to Maxwell Dulski to solve all your problems.</p>
+      <h2>Welcome to the Test Page!</h2>
+      <p>This is a simple mock-up web page for testing purposes.</p>
+      <p>Please talk to Maxwell Dulski to solve all your problems.</p>
     </main>
-    <footer>
-        &copy; 2023 Test Page
-    </footer>
-</body>
+    <footer>&copy; 2023 Test Page</footer>
+
+    <!-- Live Chat just for Live Opeerator -->
+    <script type="text/javascript">
+      var $zoho = $zoho || {};
+      $zoho.salesiq = $zoho.salesiq || {
+        widgetcode:
+          "siq3cfd398afedf8bf1fcd6d11767fb4af847b7c01c2e5ebbb70d21a6e01e075b57",
+        values: {},
+        ready: function () {},
+      };
+      var d = document;
+      s = d.createElement("script");
+      s.type = "text/javascript";
+      s.id = "zsiqscript";
+      s.defer = true;
+      s.src = "https://salesiq.zoho.com/widget";
+      t = d.getElementsByTagName("script")[0];
+      t.parentNode.insertBefore(s, t);
+      d.write("<div id='zsiqwidget'></div>");
+    </script>
+  </body>
 </html>
